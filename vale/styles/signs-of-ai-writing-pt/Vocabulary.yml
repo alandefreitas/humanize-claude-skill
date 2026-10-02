@@ -1,0 +1,15 @@
+extends: existence
+message: "AI-typical vocabulary detected: '%s'"
+level: suggestion
+ignorecase: true
+tokens:
+  - '\btapeçaria\b'
+  - '\btestemunho de\b'
+  - 'panorama (tecnológico|cultural|atual|empresarial|digital|político)'
+  - 'paisagem (tecnológica|cultural|atual|empresarial|digital|política)'
+  - 'marca um marco'
+  - 'divisor de águas'
+  - 'alavanca(r|ndo|mos)?'
+  - 'aprofunda(r|ndo|mos)? (a fundo|profundamente)'
+  - 'mergulha(r|ndo|mos)? (a fundo|profundamente|de cabeça)'
+  - 'navega(r|ndo|mos)? (o|a|os|as) (panorama|paisagem|cenário|complexidade|incerteza|mudança)'

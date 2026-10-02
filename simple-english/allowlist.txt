@@ -1,0 +1,4 @@
+# Personal allowlist for simple_english.py (one word per line, # comments ok).
+# Words here count as core vocabulary. Keep it for terms that have no plain
+# equivalent in your usual writing (domain terms, product names you write
+# in lowercase, etc.). Inflected forms are generated automatically.

@@ -1,0 +1,14 @@
+extends: existence
+message: "Generic positive conclusion detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'O futuro é promissor'
+  - 'O futuro (parece|se mostra) brilhante'
+  - 'Sem dúvida muito está por vir'
+  - 'Um passo na direção certa'
+  - 'Tempos empolgantes nos aguardam'
+  - 'Novas possibilidades se abrem'
+  - 'As possibilidades são infinitas'
+  - 'O céu é o limite'
+  - 'Só o tempo dirá'

@@ -1,0 +1,15 @@
+extends: existence
+message: "Persuasive authority trope detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'En realidad,'
+  - 'En esencia,'
+  - 'Fundamentalmente,'
+  - 'El verdadero problema es'
+  - 'Lo que realmente importa es'
+  - 'En el fondo,'
+  - 'La cuestión de fondo es'
+  - 'La verdadera pregunta es'
+  - 'En el núcleo de'
+  - 'En su esencia,'

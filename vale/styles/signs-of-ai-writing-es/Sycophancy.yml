@@ -1,0 +1,12 @@
+extends: existence
+message: "Sycophantic phrasing detected: '%s'"
+level: error
+ignorecase: true
+tokens:
+  - '¡Excelente pregunta!'
+  - '¡Muy buena pregunta!'
+  - '¡Qué (gran|buena|excelente) observación!'
+  - 'Tienes mucha razón'
+  - 'Estás (totalmente|completamente) en lo correcto'
+  - 'Es un placer ayudarte'
+  - '¡Qué interesante (planteamiento|punto)!'

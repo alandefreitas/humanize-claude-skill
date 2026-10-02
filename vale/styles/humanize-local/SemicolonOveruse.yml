@@ -1,0 +1,7 @@
+extends: existence
+message: "Semicolon in prose: '%s'. Humans rarely use these; it reads as an AI tell. Replace with a full stop or comma (keep only in list items with internal commas, or in code)."
+level: suggestion
+link: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+nonword: true
+tokens:
+  - '\w;[\s)]'

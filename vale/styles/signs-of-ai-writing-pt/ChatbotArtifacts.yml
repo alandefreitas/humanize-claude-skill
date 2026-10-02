@@ -1,0 +1,20 @@
+extends: existence
+message: "Chatbot communication pattern detected: '%s'"
+level: error
+ignorecase: true
+tokens:
+  - '\bClaro!'
+  - 'Com certeza!'
+  - 'Você tem toda a razão'
+  - 'Espero que isso (ajude|seja útil|seja de ajuda)'
+  - 'Me avise se precisar'
+  - 'Aqui está (um|uma|o|a|os|as)'
+  - 'Será um prazer (ajudar|te ajudar)'
+  - 'Gostaria que (eu )?(amplie|expanda|aprofunde|detalhe)'
+  - 'Há algo mais em que (eu )?possa ajudar'
+  - 'Como (um )?modelo de linguagem'
+  - 'Como uma IA'
+  - 'Sou uma inteligência artificial'
+  - 'Deixe-me ser claro'
+  - 'Deixa eu explicar'
+  - 'Deixe-me explicar'

@@ -1,0 +1,14 @@
+extends: existence
+message: "Generic positive conclusion detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'El futuro es prometedor'
+  - 'El futuro (luce|se ve) brillante'
+  - 'Sin duda queda mucho por (descubrir|explorar|aprender)'
+  - 'Un paso en la dirección correcta'
+  - 'Tiempos emocionantes nos esperan'
+  - 'Se abren nuevas posibilidades'
+  - 'Las posibilidades son infinitas'
+  - 'El cielo es el límite'
+  - 'Solo el tiempo lo dirá'

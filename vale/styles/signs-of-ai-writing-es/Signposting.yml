@@ -1,0 +1,16 @@
+extends: existence
+message: "Signposting announcement detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'Vamos a (explorar|analizar|examinar|profundizar|revisar)'
+  - 'Veamos'
+  - 'Sumerj[áa]monos en'
+  - 'Sumerg[áa]monos en'
+  - 'Sin más preámbulos'
+  - 'A continuación'
+  - 'Profundicemos en'
+  - 'Desglosemos esto'
+  - 'Desmenucemos esto'
+  - 'Ahora bien,'
+  - 'Dicho esto,'

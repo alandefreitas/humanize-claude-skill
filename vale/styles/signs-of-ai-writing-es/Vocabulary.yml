@@ -1,0 +1,18 @@
+extends: existence
+message: "AI-typical vocabulary detected: '%s'"
+level: suggestion
+ignorecase: true
+tokens:
+  - '\btapiz\b'
+  - '\bentramado\b'
+  - '\btestimonio de\b'
+  - 'panorama (tecnológico|cultural|actual|empresarial|digital|político)'
+  - 'paisaje (tecnológico|cultural|actual|empresarial|digital|político)'
+  - '\bhito\b'
+  - 'divisor de aguas'
+  - '\binterjuego\b'
+  - '\bexhaustivo\b'
+  - 'profundiza(r|ndo|mos)?'
+  - 'ahonda(r|ndo|mos)?'
+  - 'capitaliza(r|ndo|mos)?'
+  - 'navega(r|ndo|mos)? (el|la|los|las) (panorama|paisaje|complejidad|incertidumbre|cambio)'

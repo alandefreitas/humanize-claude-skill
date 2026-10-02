@@ -1,0 +1,20 @@
+extends: existence
+message: "Filler adverb detected: '%s' — flag only if it co-occurs with passive voice or vague subject"
+level: suggestion
+ignorecase: true
+tokens:
+  - '\brealmente\b'
+  - '\bsimplemente\b'
+  - '\bliteralmente\b'
+  - '\bfrancamente\b'
+  - '\besencialmente\b'
+  - '\bbásicamente\b'
+  - '\bprácticamente\b'
+  - '\bfundamentalmente\b'
+  - '\bprofundamente\b'
+  - '\bcompletamente\b'
+  - '\bgeneralmente\b'
+  - '\bprincipalmente\b'
+  - '\bclaramente\b'
+  - '\bevidentemente\b'
+  - '\bciertamente\b'

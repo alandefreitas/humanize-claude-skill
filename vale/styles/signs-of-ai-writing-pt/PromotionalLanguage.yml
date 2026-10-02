@@ -1,0 +1,16 @@
+extends: existence
+message: "Promotional or legacy-inflation language detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'Deixa uma marca (indelével|profunda|inesquecível)'
+  - 'Marca um antes e um depois'
+  - 'Pilar fundamental'
+  - 'Pedra angular'
+  - 'Ponto de virada'
+  - 'Verdadeiro marco'
+  - 'Mexe com todas as fibras'
+  - 'Ganha especial relevância'
+  - 'No coração de'
+  - 'Aninhado em'
+  - 'Não é apenas (um|uma)? \w+, é (um|uma)?'

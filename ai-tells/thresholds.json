@@ -1,0 +1,581 @@
+{
+ "english/en": {
+  "criteria": {
+   "ai_overall": {
+    "auc": 0.508,
+    "reliable": false,
+    "threshold": 0.9
+   },
+   "ai_overall_paragraph": {
+    "auc": 0.5,
+    "reliable": false,
+    "threshold": 0.9
+   },
+   "ai_vocabulary": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.79
+   },
+   "authority_trope": {
+    "auc": 0.727,
+    "reliable": false,
+    "threshold": 0.79
+   },
+   "business_jargon": {
+    "auc": 0.995,
+    "reliable": true,
+    "threshold": 0.38
+   },
+   "challenges_future": {
+    "auc": 0.917,
+    "reliable": false,
+    "threshold": 0.89
+   },
+   "chatbot_artifact": {
+    "auc": 0.97,
+    "reliable": true,
+    "threshold": 0.7
+   },
+   "copula_avoidance": {
+    "auc": 0.97,
+    "reliable": true,
+    "threshold": 0.85
+   },
+   "dramatic_fragments": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.61
+   },
+   "elegant_variation": {
+    "auc": 0.792,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "emphasis_crutch": {
+    "auc": 0.995,
+    "reliable": true,
+    "threshold": 0.54
+   },
+   "false_agency": {
+    "auc": 0.955,
+    "reliable": true,
+    "threshold": 0.51
+   },
+   "false_range": {
+    "auc": 0.964,
+    "reliable": true,
+    "threshold": 0.84
+   },
+   "filler_adverb": {
+    "auc": 0.825,
+    "reliable": true,
+    "threshold": 0.6
+   },
+   "filler_phrase": {
+    "auc": 0.573,
+    "reliable": false,
+    "threshold": 0.64
+   },
+   "generic_conclusion": {
+    "auc": 0.986,
+    "reliable": true,
+    "threshold": 0.68
+   },
+   "headless_statement": {
+    "auc": 0.615,
+    "reliable": false,
+    "threshold": 0.9
+   },
+   "knowledge_cutoff": {
+    "auc": 0.838,
+    "reliable": true,
+    "threshold": 0.3
+   },
+   "meta_commentary": {
+    "auc": 0.802,
+    "reliable": true,
+    "threshold": 0.61
+   },
+   "narrator_distance": {
+    "auc": 0.75,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "negative_parallelism": {
+    "auc": 0.861,
+    "reliable": true,
+    "threshold": 0.6
+   },
+   "notability_inflation": {
+    "auc": 0.995,
+    "reliable": true,
+    "threshold": 0.3
+   },
+   "participle_tail": {
+    "auc": 0.979,
+    "reliable": true,
+    "threshold": 0.85
+   },
+   "passive_hidden_actor": {
+    "auc": 0.373,
+    "reliable": false,
+    "threshold": 0.63
+   },
+   "promotional": {
+    "auc": 0.914,
+    "reliable": true,
+    "threshold": 0.59
+   },
+   "quotable_line": {
+    "auc": 0.977,
+    "reliable": true,
+    "threshold": 0.43
+   },
+   "redundant_confirmation": {
+    "auc": 0.526,
+    "reliable": false,
+    "threshold": 0.9
+   },
+   "rhetorical_setup": {
+    "auc": 0.95,
+    "reliable": true,
+    "threshold": 0.56
+   },
+   "rule_of_three": {
+    "auc": 0.608,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "signposting": {
+    "auc": 0.727,
+    "reliable": false,
+    "threshold": 0.51
+   },
+   "stacked_hedging": {
+    "auc": 0.986,
+    "reliable": true,
+    "threshold": 0.4
+   },
+   "sycophancy": {
+    "auc": 0.995,
+    "reliable": true,
+    "threshold": 0.55
+   },
+   "telling_not_showing": {
+    "auc": 0.757,
+    "reliable": true,
+    "threshold": 0.5
+   },
+   "throat_clearing": {
+    "auc": 0.891,
+    "reliable": false,
+    "threshold": 0.41
+   },
+   "undue_significance": {
+    "auc": 0.958,
+    "reliable": true,
+    "threshold": 0.81
+   },
+   "vague_attribution": {
+    "auc": 0.952,
+    "reliable": true,
+    "threshold": 0.5
+   },
+   "vague_declarative": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.9
+   }
+  },
+  "generated": "2026-10-02",
+  "labels": true,
+  "lang": "en",
+  "n_neg_sentences": 42
+ },
+ "multilingual/es": {
+  "criteria": {
+   "ai_overall": {
+    "auc": 0.586,
+    "reliable": false,
+    "threshold": 0.89
+   },
+   "ai_overall_paragraph": {
+    "auc": 0.0,
+    "reliable": false,
+    "threshold": 0.86
+   },
+   "ai_vocabulary": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.79
+   },
+   "authority_trope": {
+    "auc": 0.68,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "business_jargon": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.69
+   },
+   "challenges_future": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.57
+   },
+   "chatbot_artifact": {
+    "auc": 0.467,
+    "reliable": false,
+    "threshold": 0.83
+   },
+   "copula_avoidance": {
+    "auc": 0.992,
+    "reliable": true,
+    "threshold": 0.68
+   },
+   "dramatic_fragments": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.32
+   },
+   "elegant_variation": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "emphasis_crutch": {
+    "auc": 0.844,
+    "reliable": true,
+    "threshold": 0.54
+   },
+   "false_agency": {
+    "auc": 0.369,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "false_range": {
+    "auc": 0.77,
+    "reliable": false,
+    "threshold": 0.37
+   },
+   "filler_adverb": {
+    "auc": 0.972,
+    "reliable": true,
+    "threshold": 0.78
+   },
+   "filler_phrase": {
+    "auc": 0.754,
+    "reliable": false,
+    "threshold": 0.32
+   },
+   "generic_conclusion": {
+    "auc": 0.975,
+    "reliable": true,
+    "threshold": 0.48
+   },
+   "headless_statement": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "knowledge_cutoff": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "meta_commentary": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "narrator_distance": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "negative_parallelism": {
+    "auc": 0.787,
+    "reliable": true,
+    "threshold": 0.55
+   },
+   "notability_inflation": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "participle_tail": {
+    "auc": 0.902,
+    "reliable": true,
+    "threshold": 0.3
+   },
+   "passive_hidden_actor": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "promotional": {
+    "auc": 0.951,
+    "reliable": true,
+    "threshold": 0.56
+   },
+   "quotable_line": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "redundant_confirmation": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "rhetorical_setup": {
+    "auc": 0.893,
+    "reliable": false,
+    "threshold": 0.49
+   },
+   "rule_of_three": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "signposting": {
+    "auc": 0.787,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "stacked_hedging": {
+    "auc": 0.475,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "sycophancy": {
+    "auc": 0.959,
+    "reliable": true,
+    "threshold": 0.3
+   },
+   "telling_not_showing": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "throat_clearing": {
+    "auc": 0.689,
+    "reliable": false,
+    "threshold": 0.33
+   },
+   "undue_significance": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.88
+   },
+   "vague_attribution": {
+    "auc": 0.893,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "vague_declarative": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.47
+   }
+  },
+  "generated": "2026-10-02",
+  "labels": true,
+  "lang": "es",
+  "n_neg_sentences": 18
+ },
+ "multilingual/pt": {
+  "criteria": {
+   "ai_overall": {
+    "auc": 0.557,
+    "reliable": false,
+    "threshold": 0.9
+   },
+   "ai_overall_paragraph": {
+    "auc": 0.333,
+    "reliable": false,
+    "threshold": 0.9
+   },
+   "ai_vocabulary": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.79
+   },
+   "authority_trope": {
+    "auc": 0.582,
+    "reliable": false,
+    "threshold": 0.35
+   },
+   "business_jargon": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.87
+   },
+   "challenges_future": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.59
+   },
+   "chatbot_artifact": {
+    "auc": 0.533,
+    "reliable": false,
+    "threshold": 0.9
+   },
+   "copula_avoidance": {
+    "auc": 0.951,
+    "reliable": true,
+    "threshold": 0.74
+   },
+   "dramatic_fragments": {
+    "auc": 0.75,
+    "reliable": false,
+    "threshold": 0.43
+   },
+   "elegant_variation": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "emphasis_crutch": {
+    "auc": 0.951,
+    "reliable": true,
+    "threshold": 0.66
+   },
+   "false_agency": {
+    "auc": 0.336,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "false_range": {
+    "auc": 0.664,
+    "reliable": false,
+    "threshold": 0.46
+   },
+   "filler_adverb": {
+    "auc": 0.917,
+    "reliable": true,
+    "threshold": 0.8
+   },
+   "filler_phrase": {
+    "auc": 0.762,
+    "reliable": true,
+    "threshold": 0.57
+   },
+   "generic_conclusion": {
+    "auc": 0.77,
+    "reliable": false,
+    "threshold": 0.62
+   },
+   "headless_statement": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "knowledge_cutoff": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "meta_commentary": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "narrator_distance": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "negative_parallelism": {
+    "auc": 0.623,
+    "reliable": false,
+    "threshold": 0.59
+   },
+   "notability_inflation": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "participle_tail": {
+    "auc": 0.902,
+    "reliable": true,
+    "threshold": 0.36
+   },
+   "passive_hidden_actor": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "promotional": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.89
+   },
+   "quotable_line": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "redundant_confirmation": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "rhetorical_setup": {
+    "auc": 0.934,
+    "reliable": false,
+    "threshold": 0.31
+   },
+   "rule_of_three": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "signposting": {
+    "auc": 0.893,
+    "reliable": true,
+    "threshold": 0.6
+   },
+   "stacked_hedging": {
+    "auc": 0.123,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "sycophancy": {
+    "auc": 0.893,
+    "reliable": true,
+    "threshold": 0.3
+   },
+   "telling_not_showing": {
+    "auc": null,
+    "reliable": false,
+    "threshold": 0.5
+   },
+   "throat_clearing": {
+    "auc": 0.369,
+    "reliable": false,
+    "threshold": 0.66
+   },
+   "undue_significance": {
+    "auc": 1.0,
+    "reliable": true,
+    "threshold": 0.87
+   },
+   "vague_attribution": {
+    "auc": 0.861,
+    "reliable": false,
+    "threshold": 0.3
+   },
+   "vague_declarative": {
+    "auc": 0.713,
+    "reliable": false,
+    "threshold": 0.3
+   }
+  },
+  "generated": "2026-10-02",
+  "labels": true,
+  "lang": "pt",
+  "n_neg_sentences": 18
+ }
+}

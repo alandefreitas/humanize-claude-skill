@@ -1,0 +1,17 @@
+extends: existence
+message: "Promotional or legacy-inflation language detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'Deja una huella (imborrable|indeleble|profunda)'
+  - 'Marca un antes y un después'
+  - 'Pilar fundamental'
+  - 'Piedra angular'
+  - 'Punto de inflexión'
+  - 'Auténtico referente'
+  - 'Hito histórico'
+  - 'Toca todas las fibras'
+  - 'Cobra especial relevancia'
+  - 'En el corazón de'
+  - 'Enclavado en'
+  - 'No es solo (una|un)? \w+, es (una|un)?'

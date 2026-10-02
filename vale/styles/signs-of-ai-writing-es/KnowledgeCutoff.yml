@@ -1,0 +1,13 @@
+extends: existence
+message: "AI knowledge cutoff reference detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'Hasta donde tengo conocimiento'
+  - 'Hasta la fecha de mi última actualización'
+  - 'Según la información disponible'
+  - 'Hasta donde sé'
+  - 'Conforme a los datos disponibles'
+  - 'Mi conocimiento se limita a'
+  - 'No tengo información (más allá|posterior) (de|a)'
+  - 'Hasta el momento de mi entrenamiento'

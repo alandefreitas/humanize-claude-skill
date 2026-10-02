@@ -1,0 +1,12 @@
+extends: existence
+message: "Sycophantic phrasing detected: '%s'"
+level: error
+ignorecase: true
+tokens:
+  - 'Ótima pergunta!'
+  - 'Excelente pergunta!'
+  - 'Excelente observação!'
+  - 'Que (ótima|excelente|boa) (observação|colocação|pergunta)!'
+  - 'Você está (totalmente|completamente|absolutamente) (correto|certo)'
+  - 'É um prazer ajudar'
+  - 'Que (interessante|ótimo) (ponto|comentário|questionamento)!'

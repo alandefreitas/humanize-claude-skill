@@ -1,0 +1,15 @@
+extends: existence
+message: "Signposting announcement detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'Vamos (explorar|analisar|examinar|aprofundar|revisar|ver)'
+  - 'Vejamos'
+  - 'Vamos mergulhar (em|no|na)'
+  - 'Sem mais delongas'
+  - 'A seguir,'
+  - 'Vamos nos aprofundar em'
+  - 'Vamos desmembrar isso'
+  - 'Vamos destrinchar isso'
+  - 'Dito isso,'
+  - 'Posto isso,'

@@ -1,0 +1,20 @@
+extends: existence
+message: "Throat-clearing opener detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'Es importante señalar que'
+  - 'Es importante notar que'
+  - 'Es importante destacar que'
+  - 'Es importante mencionar que'
+  - 'Cabe destacar que'
+  - 'Cabe señalar que'
+  - 'Cabe mencionar que'
+  - 'Vale la pena (mencionar|destacar|señalar) que'
+  - 'En este sentido'
+  - 'Por otro lado'
+  - 'Es fundamental (comprender|entender|saber|notar) que'
+  - 'No es ningún secreto que'
+  - 'Hay que tener en cuenta que'
+  - 'A modo de introducción'
+  - 'A grandes rasgos'

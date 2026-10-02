@@ -1,0 +1,18 @@
+extends: existence
+message: "Filler phrase detected: '%s'"
+level: suggestion
+ignorecase: true
+tokens:
+  - 'Com o objetivo de'
+  - 'A fim de'
+  - 'Devido ao fato de que'
+  - 'Pelo fato de que'
+  - 'Neste momento'
+  - 'Nesse momento'
+  - 'Tem a capacidade de'
+  - 'É importante (notar|ressaltar|destacar) que'
+  - 'Em última análise'
+  - 'No final das contas'
+  - 'Em última instância'
+  - 'Por assim dizer'
+  - 'De certa forma'

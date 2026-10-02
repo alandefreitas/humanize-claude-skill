@@ -1,0 +1,17 @@
+extends: existence
+message: "Throat-clearing opener detected: '%s'"
+level: warning
+ignorecase: true
+tokens:
+  - 'É importante (notar|destacar|ressaltar|salientar|mencionar) que'
+  - 'Vale (ressaltar|destacar|mencionar|lembrar|notar) que'
+  - 'Cabe (destacar|ressaltar|mencionar|notar) que'
+  - 'Neste sentido'
+  - 'Nesse sentido'
+  - 'Por outro lado'
+  - 'É fundamental (compreender|entender|saber|notar) que'
+  - 'Não é segredo que'
+  - 'Vale a pena (mencionar|destacar|ressaltar) que'
+  - 'A título de introdução'
+  - 'De maneira geral'
+  - 'De modo geral'
